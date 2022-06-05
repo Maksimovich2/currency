@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "25b06440-0682-4875-b074-b5f5cd5c3194",
+		"name": "currency",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19623846"
+	},
+	"item": [
+		{
+			"name": "getCurrency",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "3b8c120bb3624e3eb59a8002fdc0c03e",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/currency/find-all-currencies-codes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"currency",
+						"find-all-currencies-codes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "show differences",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/currency/getGif/AMD",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"currency",
+						"getGif",
+						"AMD"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

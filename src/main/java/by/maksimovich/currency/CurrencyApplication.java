@@ -2,8 +2,9 @@ package by.maksimovich.currency;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
-@Enable
+@EnableFeignClients
 @SpringBootApplication
 public class CurrencyApplication {
 
